@@ -1,0 +1,169 @@
+:root{
+    --primario: rgba(45,42,43,255);
+    --secundario: #bca177;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--primario);
+    color: white;
+
+}
+
+/* Seccion Portada */
+.fondo-inicio{
+    background-image: url("img/Central/imagenCentral.png");    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    
+    height: 600px;
+    width: 100% !important;
+}
+
+#portada .btn{
+    border-radius: 1.25rem ;
+}
+#portada .btn-dark{
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    border-color: rgba(0, 0, 0, 0.3) !important ;
+}
+
+/* Sección calidad */
+#calidad{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#calidad .texto-calidad{
+    font-size: 12px;
+    color: var(--secundario);;
+}
+
+/* Seccion Productos */
+h2{
+    text-align: center;
+    padding-top: 20px;
+    
+}
+.fondo-producto{
+    background-color: var(--secundario);
+    color: rgba(45,42,43,255);
+    height: 80px;
+    margin: 20px 0;
+    
+}
+
+.card{
+    background-color: black;
+}
+
+#productos .btn-primary{
+    background-color: black;
+    border-color:var(--secundario) ;
+    color:var(--secundario); 
+}
+#productos .text-presentacion , .card-title{
+    color: var(--secundario)!important;
+}
+#producto4{
+    background-color: var(--secundario);
+    color: black;
+}
+
+#producto4 .text-presentacion , #producto4 .card-title{
+    color: rgba(88,53,11,255) !important;
+    font-weight: 700;
+}
+#producto4 .btn-primary{
+    background-color: var(--secundario);
+    border-color:rgba(88,53,11,255) !important ;
+    color: rgba(88,53,11,255) !important;
+}
+
+/* Acerca de Nosotros */
+#acerca-ntrs .texto-acerca-ntrs{
+/*     padding: 10px;
+ */    margin: 0 20px;
+    font-weight: 400;
+    text-align: start;
+}
+
+/* Contáctanos */
+form{
+    margin: 0 50px;
+    color: black;
+    font-weight: 500;
+}
+.form-control{
+    background-color: #856b4d;
+}
+.btn-outline-dark{
+   margin: 0 auto;
+}
+#contactanos{
+    background-color: #fffaf4;
+}
+#contactanos form .btn{
+    font-weight: 500;
+    
+}
+
+/* Recetas */
+#recetas .card{
+    background-color: var(--secundario) !important;
+    color: black;
+}
+#recetas h5{
+    color: black !important;
+}
+#recetas .btn{
+    border: 2px solid var(--primario) !important;
+}
+#recetas .btn-outline-dark{
+    font-weight: 500;
+}
+#recetas .btn-outline-dark:hover{
+    background-color: var(--primario);
+}
+
+/* Encontranos */
+#encontranos{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#encontranos iframe{
+    border-radius: 5%;
+    
+}
+
+footer{
+    background-color: black;
+}
+footer .developer{
+    background-color: var(--secundario);
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.developer ul{
+    text-decoration: none;
+    list-style: none;
+    
+}
+.developer ul li{
+    display: inline;
+    color: white !important;
+    margin: 0 2px;
+}
+.developer ul li a{
+    color: black;
+}
